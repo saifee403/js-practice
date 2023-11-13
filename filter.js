@@ -18,7 +18,7 @@ const books = [
   ];
 
   const userBooks = books.filter( (bk) =>{
-    return bk.publish >= 1989 && bk.edition >= 1990
+    return bk.publish >= 1989 && bk.edition >= 1990 
     
       
    
