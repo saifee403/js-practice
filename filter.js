@@ -18,6 +18,10 @@ const books = [
   ];
 
   const userBooks = books.filter( (bk) =>{
-    return bk.genre === "Science" && bk.edition >=2015
+    return bk.publish >= 1989 && bk.edition >= 1990
+    
+      
+   
+    // bk.genre === "Science" && bk.edition >=2015
   })
   console.log(userBooks)
